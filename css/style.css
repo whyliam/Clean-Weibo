@@ -1,0 +1,63 @@
+
+/*header*/
+.gn_topmenulist_search{
+    display: none;
+}
+.gn_nav_list{
+    display: none;
+}
+/*main*/
+/*热门微博*/
+.WB_miniblog_fb .WB_frame #plc_main {
+    width: 710px;
+}
+@media screen and (max-width: 1006px) {
+    .WB_miniblog_fb .WB_frame #plc_main {
+        width: 460px;
+    }
+}
+.WB_miniblog_fb .WB_frame #plc_main .WB_main_c {
+    width: 100%;
+}
+#plc_main .WB_main_c #v6_pl_content_publishertop .send_weibo .key {
+    display: none
+}
+.WB_miniblog_fb .WB_frame #plc_main .WB_main_c .WB_tab_a .tab.W_fl {
+    width: 100%
+}
+.WB_miniblog_fb .WB_frame #plc_main .WB_main_c .WB_tab_a .fr_box.W_fr {
+    display: none;
+}
+.WB_miniblog_fb #plc_bot .W_fold {
+    display: none;
+}
+/*left*/
+
+.WB_main .WB_main_l {
+    width: 230px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.WB_main .WB_main_l .WB_left_nav {
+    width: 100%;
+    border: #fff 1.5px solid;
+    border-radius: 4px;
+}
+.WB_main .WB_main_l .WB_left_nav a{
+    /*color: #000!important;*/
+}
+/*right*/
+
+.WB_main .WB_main_r {
+    width: 0px;
+    display: none;
+}
+
+.PCD_mplayer, .PCD_mplayer .player_bg {
+    display: none!important;
+}
+/*button*/
+
+#plc_bot .WB_footer .footer_link {
+    display: none;
+}
